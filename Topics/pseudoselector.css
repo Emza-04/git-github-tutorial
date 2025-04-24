@@ -1,0 +1,16 @@
+button{
+    transition:300ms;
+}
+
+button:hover{
+   opacity: 30%;  
+   background-color: aqua;
+   padding: 4px;
+}
+
+p::before{
+    /* Its important  */
+content: "Hey my name is "; 
+background-color: yellow ;
+
+}
